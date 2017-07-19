@@ -39,5 +39,22 @@
   }
 </script>
 <style lang="less" scoped>
-  @import 'App.less';
+  @import "../static/less/base.less";
+  @import "../static/less/mixin.less";
+  .tab{
+    width: 100%;
+    height: 40px;
+    line-height:40px;
+    display: flex;
+    .border-1px(bottom,@borderColor);
+    .tab-item{
+      flex-grow:1;
+      text-align: center;
+      color: @globalBase;
+      font-size: 14px;
+      &.current{
+         color: @routerActive;
+       }
+    }
+  }
 </style>

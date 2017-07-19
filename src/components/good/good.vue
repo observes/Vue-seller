@@ -43,7 +43,7 @@
           :min-price="seller.minPrice"
           :select-foods='selectFoods' ref="shopcart">
         </shop-cart>
-      <food :food="selectedFood" @add="addFood" ref="food"></food>
+        <food :food="selectedFood" @add="addFood" ref="food"></food>
     </div>
 </template>
 <script type="text/ecmascript-6">
@@ -78,7 +78,7 @@
             this.goods.forEach((good)=>{
                  good.foods.forEach((food)=>{
                     if(food.count){
-                      foods.push(food)
+                        foods.push(food)
                     }
                  });
             });
