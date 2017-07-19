@@ -1,0 +1,191 @@
+@import "../../../static/less/icon.less";
+@import "../../../static/less/mixin.less";
+@import "../../../static/less/base.less";
+.food{
+  position: fixed;
+  left:0;
+  top: 0;
+  bottom:48px;
+  z-index: 30;
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+  -webkit-overflow-scrolling:auto;
+  transform: translate3d(0, 0, 0);
+  &.move-enter-active, &.move-leave-active {
+    transition: all .2s linear;
+  }
+  &.move-enter, &.move-leave-active{
+    transform: translate3d(100%, 0, 0)
+  }
+  .image-header{
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 100%;
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .go-back{
+      position: absolute;
+      top: 0;
+      left:0;
+      z-index: 40;
+      .icon-arrow_lift{
+        display: block;
+        padding:10px;
+        font-size: 20px;
+        color: #fff;
+      }
+    }
+  }
+  .content{
+    padding:18px 0 0 18px;
+    position: relative;
+    top: 0;
+    left: 0;
+    .title{
+      font-size: 14px;
+      font-weight: 700;
+      color: rgb(7,17,27);
+      line-height: 14px;
+      padding-bottom:8px;
+    }
+    .detail{
+      padding-bottom: 18px;
+      font-size: 0;
+      color: rgb(147,153,159);
+      line-height:10px;
+      .sell-count{
+        font-size: 10px;
+        padding-right:12px;
+      }
+      .rating{
+        font-size: 10px;
+      }
+    }
+    .price{
+      padding-bottom: 18px;
+      font-size: 0;
+      font-weight: 700;
+      .newPrice{
+        font-size: 14px;
+        color: rgb(240,20,20);
+        padding-right:12px;
+      }
+      .oldPrice{
+        font-size: 10px;
+        color: rgb(147,153,159);
+        text-decoration: line-through;
+      }
+    }
+    .add-cart{
+      position: absolute;
+      right:18px;
+      bottom: 18px;
+      .btn{
+        height: 24px;
+        width: 74px;
+        background-color: rgb(0,160,220);
+        border-radius: 12px;
+        color: #fff;
+        font-size: 10px;
+        line-height:24px;
+        text-align: center;
+        opacity: 1;
+        &.fade-enter-active, &.fade-leave-active{
+        transition: all 0.2s;
+        }
+        &.fade-enter, &.fade-leave-active{
+          opacity: 0;
+          z-index: -1;
+        }
+      }
+    }
+  }
+  .food-info{
+    padding:18px;
+    .title{
+      font-weight: 700;
+      font-size: 14px;
+      padding-bottom:12px;
+    }
+    .info{
+      padding:0 6px;
+      font-weight: 200;
+      color: rgb(77,88,93);
+      font-size: 12px;
+      line-height:24px;
+    }
+  }
+  .ratings{
+    padding:18px;
+    .border-1px(bottom,rgba(7,17,27,.1));
+    .title{
+      font-weight: 700;
+      font-size: 14px;
+      padding-bottom:12px;
+    }
+  }
+  .ratings-wrapper{
+    padding:0 18px;
+    .rating-item{
+      padding:16px 0;
+        .border-1px(bottom,rgba(7,17,27,.1))
+    }
+    .rating-information{
+      display: flex;
+      justify-content: space-between;
+      padding-bottom:6px;
+      line-height: 24px;
+      .time{
+        font-size: 10px;
+        color: rgb(147,153,159);
+      }
+      .user{
+        color: rgb(147,153,159);
+        font-size: 0;
+        .name{
+          display: inline-block;
+          vertical-align: middle;
+          font-size: 10px;
+          padding-right: 6px;
+        }
+        .avatar{
+          display: inline-block;
+          vertical-align: middle;
+          width: 12px;
+          height: 12px;
+          border-radius: 50%;
+        }
+      }
+    }
+    .text{
+      font-size: 12px;
+      line-height: 16px;
+      color: rgb(7,17,27);
+      span{
+        display: inline-block;
+        font-size: 12px;
+        line-height: 24px;
+        vertical-align: middle;
+        padding-right:4px;
+        &.icon-thumb_up{
+          color: rgb(0,160,220);
+        }
+        &.icon-thumb_down{
+          color: rgb(147,153,159);
+        }
+      }
+    }
+    .no-rating{
+      padding: 16px 0;
+      font-size: 12px;
+      color: rgb(147, 153, 159);
+    }
+  }
+}

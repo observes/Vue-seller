@@ -1,0 +1,206 @@
+.border-none::after {
+  display: none;
+}
+.icon .type {
+  float: left;
+}
+.icon .text {
+  float: left;
+}
+.icon.icon-12 {
+  height: 12px;
+}
+.icon.icon-12 .type {
+  vertical-align: middle;
+  height: 12px;
+  width: 12px;
+  background-repeat: no-repeat;
+  background-size: 12px 12px;
+}
+.icon.icon-12 .type.decrease {
+  background-repeat: no-repeat;
+  background-image: url('../../src/components/iconTip/decrease2x.png');
+}
+@media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+  .icon.icon-12 .type.decrease {
+    background-repeat: no-repeat;
+    background-image: url('../../src/components/iconTip/decrease3x.png');
+  }
+}
+.icon.icon-12 .type.discount {
+  background-repeat: no-repeat;
+  background-image: url('../../src/components/iconTip/discount2x.png');
+}
+@media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+  .icon.icon-12 .type.discount {
+    background-repeat: no-repeat;
+    background-image: url('../../src/components/iconTip/discount3x.png');
+  }
+}
+.icon.icon-12 .type.guarantee {
+  background-repeat: no-repeat;
+  background-image: url('../../src/components/iconTip/guarantee2x.png');
+}
+@media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+  .icon.icon-12 .type.guarantee {
+    background-repeat: no-repeat;
+    background-image: url('../../src/components/iconTip/guarantee3x.png');
+  }
+}
+.icon.icon-12 .type.invoice {
+  background-repeat: no-repeat;
+  background-image: url('../../src/components/iconTip/invoice2x.png');
+}
+@media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+  .icon.icon-12 .type.invoice {
+    background-repeat: no-repeat;
+    background-image: url('../../src/components/iconTip/invoice3x.png');
+  }
+}
+.icon.icon-12 .type.special {
+  background-repeat: no-repeat;
+  background-image: url('../../src/components/iconTip/special2x.png');
+}
+@media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+  .icon.icon-12 .type.special {
+    background-repeat: no-repeat;
+    background-image: url('../../src/components/iconTip/special3x.png');
+  }
+}
+.icon.icon-12 .text {
+  padding-left: 4px;
+  font-size: 10px;
+  line-height: 12px;
+}
+.icon.icon-16 {
+  height: 16px;
+}
+.icon.icon-16 .type {
+  vertical-align: middle;
+  height: 16px;
+  width: 16px;
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+}
+.icon.icon-16 .type.decrease {
+  background-repeat: no-repeat;
+  background-image: url('../../src/components/iconTip/decrease_22x.png');
+}
+@media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+  .icon.icon-16 .type.decrease {
+    background-repeat: no-repeat;
+    background-image: url('../../src/components/iconTip/decrease_23x.png');
+  }
+}
+.icon.icon-16 .type.discount {
+  background-repeat: no-repeat;
+  background-image: url('../../src/components/iconTip/discount_22x.png');
+}
+@media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+  .icon.icon-16 .type.discount {
+    background-repeat: no-repeat;
+    background-image: url('../../src/components/iconTip/discount_23x.png');
+  }
+}
+.icon.icon-16 .type.guarantee {
+  background-repeat: no-repeat;
+  background-image: url('../../src/components/iconTip/guarantee_22x.png');
+}
+@media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+  .icon.icon-16 .type.guarantee {
+    background-repeat: no-repeat;
+    background-image: url('../../src/components/iconTip/guarantee_23x.png');
+  }
+}
+.icon.icon-16 .type.invoice {
+  background-repeat: no-repeat;
+  background-image: url('../../src/components/iconTip/invoice_22x.png');
+}
+@media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+  .icon.icon-16 .type.invoice {
+    background-repeat: no-repeat;
+    background-image: url('../../src/components/iconTip/invoice_23x.png');
+  }
+}
+.icon.icon-16 .type.special {
+  background-repeat: no-repeat;
+  background-image: url('../../src/components/iconTip/special_22x.png');
+}
+@media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+  .icon.icon-16 .type.special {
+    background-repeat: no-repeat;
+    background-image: url('../../src/components/iconTip/special_23x.png');
+  }
+}
+.icon.icon-16 .text {
+  padding-left: 6px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 200;
+}
+.icon.icon-24 {
+  height: 16px;
+}
+.icon.icon-24 .type {
+  vertical-align: middle;
+  height: 16px;
+  width: 16px;
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+}
+.icon.icon-24 .type.decrease {
+  background-repeat: no-repeat;
+  background-image: url('../../src/components/iconTip/decrease_42x.png');
+}
+@media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+  .icon.icon-24 .type.decrease {
+    background-repeat: no-repeat;
+    background-image: url('../../src/components/iconTip/decrease_43x.png');
+  }
+}
+.icon.icon-24 .type.discount {
+  background-repeat: no-repeat;
+  background-image: url('../../src/components/iconTip/discount_42x.png');
+}
+@media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+  .icon.icon-24 .type.discount {
+    background-repeat: no-repeat;
+    background-image: url('../../src/components/iconTip/discount_43x.png');
+  }
+}
+.icon.icon-24 .type.guarantee {
+  background-repeat: no-repeat;
+  background-image: url('../../src/components/iconTip/guarantee_42x.png');
+}
+@media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+  .icon.icon-24 .type.guarantee {
+    background-repeat: no-repeat;
+    background-image: url('../../src/components/iconTip/guarantee_43x.png');
+  }
+}
+.icon.icon-24 .type.invoice {
+  background-repeat: no-repeat;
+  background-image: url('../../src/components/iconTip/invoice_42x.png');
+}
+@media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+  .icon.icon-24 .type.invoice {
+    background-repeat: no-repeat;
+    background-image: url('../../src/components/iconTip/invoice_43x.png');
+  }
+}
+.icon.icon-24 .type.special {
+  background-repeat: no-repeat;
+  background-image: url('../../src/components/iconTip/special_42x.png');
+}
+@media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+  .icon.icon-24 .type.special {
+    background-repeat: no-repeat;
+    background-image: url('../../src/components/iconTip/special_43x.png');
+  }
+}
+.icon.icon-24 .text {
+  padding-left: 6px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #07111b;
+}

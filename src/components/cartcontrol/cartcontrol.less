@@ -1,0 +1,28 @@
+@import "../../../static/less/icon.less";
+@import "../../../static/less/mixin.less";
+.control{
+  font-size: 0;
+  .decreaseBtn-enter-active, .decreaseBtn-leave-active {
+    transition: all .5s
+  }
+  .decreaseBtn-enter, .decreaseBtn-leave-active {
+    opacity: 0;
+    transform: translate3d(36px,0,0) rotate(180deg);
+  }
+  .decrease,.add{
+    display: inline-block;
+    padding: 6px;
+    font-size: 24px;
+    line-height: 24px;
+    color: rgb(0,160,220);
+  }
+  .count{
+    vertical-align: top;
+    display: inline-block;
+    width: 12px;
+    font-size: 10px;
+    line-height:36px;
+    color: rgb(147,153,159);
+    text-align: center;
+  }
+}

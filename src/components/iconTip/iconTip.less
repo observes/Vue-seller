@@ -1,0 +1,102 @@
+@import "../../../static/less/mixin.less";
+@images: "../../src/components/iconTip/";
+.icon{
+  .type{
+    float: left;
+  }
+  .text{
+    float: left;
+  }
+  &.icon-12{
+    height: 12px;
+    .type{
+      vertical-align: middle;
+      height: 12px;
+      width: 12px;
+      background-repeat: no-repeat;
+      background-size: 12px 12px;
+      &.decrease{
+        .bg-image(decrease,@images)
+      }
+      &.discount{
+        .bg-image(discount,@images)
+      }
+      &.guarantee{
+        .bg-image(guarantee,@images)
+      }
+      &.invoice{
+        .bg-image(invoice,@images)
+      }
+      &.special{
+        .bg-image(special,@images)
+      }
+    }
+    .text{
+      padding-left:4px;
+      font-size: 10px;
+      line-height: 12px;
+    }
+  }
+  &.icon-16{
+    height: 16px;
+    .type{
+      vertical-align: middle;
+      height: 16px;
+      width: 16px;
+      background-repeat: no-repeat;
+      background-size: 16px 16px;
+      &.decrease{
+        .bg-image(decrease_2,@images)
+      }
+      &.discount{
+        .bg-image(discount_2,@images)
+      }
+      &.guarantee{
+        .bg-image(guarantee_2,@images)
+      }
+      &.invoice{
+        .bg-image(invoice_2,@images)
+      }
+      &.special{
+        .bg-image(special_2,@images)
+      }
+    }
+    .text{
+      padding-left:6px;
+      font-size: 12px;
+      line-height: 16px;
+      font-weight: 200;
+    }
+  }
+  &.icon-24{
+    height:16px;
+    .type{
+      vertical-align: middle;
+      height: 16px;
+      width: 16px;
+      background-repeat: no-repeat;
+      background-size: 16px 16px;
+      &.decrease{
+        .bg-image(decrease_4,@images)
+      }
+      &.discount{
+        .bg-image(discount_4,@images)
+      }
+      &.guarantee{
+        .bg-image(guarantee_4,@images)
+      }
+      &.invoice{
+        .bg-image(invoice_4,@images)
+      }
+      &.special{
+        .bg-image(special_4,@images)
+      }
+    }
+    .text{
+      padding-left:6px;
+      font-size: 12px;
+      line-height: 16px;
+      color: rgb(7,17,27);
+    }
+  }
+}

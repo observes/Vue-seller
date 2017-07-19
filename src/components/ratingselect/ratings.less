@@ -1,0 +1,49 @@
+@import "../../../static/less/icon.less";
+@import "../../../static/less/mixin.less";
+@import "../../../static/less/base.less";
+.ratingSelect{
+  .ratingType{
+    font-size: 0;
+    padding-bottom: 18px;
+    .border-1px(bottom,rgba(7,17,27,.1));
+    span{
+      display: inline-block;
+      padding:8px 12px;
+      font-size:12px;
+      margin-right: 8px;
+      border-radius: 2px;
+      background-color: rgba(0,160,220,.2);
+      color: rgb(77,85,93);
+      &.active{
+        background-color: rgb(0,160,220);
+        color: #fff;
+      }
+      .count{
+        font-size: 8px;
+        margin-left:2px;
+      }
+    }
+  }
+  .ratingSwitch{
+    padding-top:12px;
+    font-size: 0;
+    span{
+      display: inline-block;
+      line-height:24px;
+      color: rgb(147,153,159);
+      &:nth-child(1){
+        font-size: 24px;
+        color: rgb(147,153,159);
+        margin-right:4px;
+      }
+      &:nth-child(2){
+        vertical-align: top;
+        font-size: 12px;
+        margin-right:4px;
+      }
+      &.present{
+        color: #00c850;
+      }
+    }
+  }
+}
